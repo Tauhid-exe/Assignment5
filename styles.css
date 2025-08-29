@@ -1,0 +1,55 @@
+.call-record {
+    background-color: #FAFAFA;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 83px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.record-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.record-service {
+    font-weight: bold;
+}
+
+.record-number {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.record-time {
+    font-size: 14px;
+    color: #666;
+}
+
+
+
+
+
+
+.hind-madurai-regular {
+  font-family: "Hind Madurai", sans-serif;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
