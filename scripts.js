@@ -72,6 +72,12 @@ const appendCallEntry = (service, number, time) => {
 
 
 
+const resetHistory = () => {
+    document.getElementById('call-records').innerHTML = '';
+};
+
+
+
 
 
 
