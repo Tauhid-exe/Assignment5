@@ -40,6 +40,7 @@ const incrementSupport = () => {
 
 
 
+
 const dialService = (serviceName, number) => {
     console.log(`Dialing ${serviceName} with ${dialResources} resources`);
     if (dialResources < 20) {
@@ -56,6 +57,15 @@ const dialService = (serviceName, number) => {
     refreshResourceTally();
 };
 
+
+
+const appendCallEntry = (service, number, time) => {
+    const history = document.getElementById('call-records');
+    const entry = document.createElement('div');
+    entry.className = 'call-record bg-[#FAFAFA] rounded-lg p-4 mb-2 ';
+    entry.innerHTML = `<div class="flex justify-between"><div><span class="record-service text-[18px] text-black">${service}</span></div><div><span class="record-time text-black">${time}</span></div></div><span class="record-number text-[18px]">${number}</span>`;
+    history.prepend(entry);
+};
 
 
 
