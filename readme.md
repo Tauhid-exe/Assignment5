@@ -5,7 +5,7 @@ Answer the following questions clearly:
 4. What is Event Delegation in JavaScript? Why is it useful?
 5. What is the difference between preventDefault() and stopPropagation() methods?
 
-
+----------------------------------------
 
 # 1.
 # getElementById : 
@@ -19,7 +19,7 @@ Selects the first element matching a CSS selector. Returns one element (or null)
 Selects all elements matching a CSS selector. Returns a static NodeList.
 
 
-
+------------------------------------------
 
 
 # 2.
@@ -33,19 +33,20 @@ newElement.textContent = 'Hello'; newElement.className = 'myClass';
 document.body.appendChild(newElement);
 
 
-
+---------------------------------------------
 
 
 # 3.
 # Event Bubbling:
 When an event occurs on an element, it first triggers on that element, then "bubbles up" to its parent elements, triggering their event handlers in sequence.
 
-
+----------------------------------------------
 
 # 4.
 # Event Delegation in JavaScript:
 Attaching a single event listener to a parent element to handle events for its child elements, instead of adding listeners to each child. It reduces memory usage, simplifies code, and handles dynamically added elements automatically.
 
+-----------------------------------------------
 
 # 5. 
 # Difference between :
